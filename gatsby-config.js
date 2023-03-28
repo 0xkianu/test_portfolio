@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Thomas Lee | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Full-Stack Developer from Georgia.`,
     // Optional: Twitter account handle
     author: ``,
     // Optional: Github account URL
@@ -15,26 +15,32 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thomas-lee-43483829/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a motivated full-stack engineer with over 15 years working in technology. I previously worked as a database administrator, and have a proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.  I am eager to tackle development/design challenges to achieve lasting impacts on user experience.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Barter House',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A fun project which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade items 1 for 1.',
+        link: 'NA',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Babble-Log',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Voice to text notes recording web application.  Record voice notes to text, save them and organize them into folders.',
+        link: '',
       },
       {
-        name: 'Another Cool Project',
+        name: 'React-O-Blog',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A blogging web application.',
+        link: '',
+      },
+      {
+        name: 'Heads-Up',
+        description:
+          'An event planning application for groups to plan and communicate.  Create events, invite other members and have group chats in event rooms.',
+        link: '',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
