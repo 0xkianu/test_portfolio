@@ -15,25 +15,25 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thomas-lee-43483829/`,
     // Content of the About Me section
-    about: `I'm a motivated full-stack engineer with over 15 years working in technology. I previously worked as a database administrator, and have a proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.  I am eager to tackle development/design challenges to achieve lasting impacts on user experience.`,
+    about: `I'm a motivated full-stack engineer with over 15 years working in the field of technology. I previously worked as a database administrator, and have a proven ability to work in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.  I am eager to tackle development/design challenges to achieve lasting impacts on user experience.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'Barter House',
         description:
-          'A fun project which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade items 1 for 1.',
+          'A fun project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade items 1 for 1.',
         link: 'NA',
       },
       {
         name: 'Babble-Log',
         description:
-          'Voice to text notes recording web application.  Record voice notes to text, save them and organize them into folders.',
+          'Voice to text notes recording web application.  Record your voice to text, save the texts as notes and organize the notes in folders.',
         link: '',
       },
       {
         name: 'React-O-Blog',
         description:
-          'A blogging web application.',
+          'A blogging web application.  Allows users to create and publish blog posts.',
         link: '',
       },
       {
@@ -46,19 +46,19 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Digital Crafts Bootcamp',
+        description: 'Student, October 2022 - Present',
+        link: '',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Ventiv Technology',
+        description: 'Senior Database Administrator, January 2015 - Present',
+        link: '',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Consilium Consulting',
+        description: 'Senior Database Administrator, October 2003 - December 2014',
+        link: '',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
