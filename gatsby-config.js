@@ -27,7 +27,7 @@ module.exports = {
       {
         name: 'Babble-Log',
         description:
-          'Voice to text notes recording web application.  Record your voice to text, save the texts as notes and organize the notes in folders.',
+          'Voice to text, note recording web application.  Record your voice to text, save the texts as notes and organize the notes in folders.',
         link: '',
       },
       {
