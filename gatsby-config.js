@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/thomas-lee-43483829/`,
     // Content of the About Me section
-    about: `I'm a motivated full-stack engineer with over 15 years working in the field of technology. I previously worked as a database administrator, and have a proven ability to work in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.  I am eager to tackle development/design challenges to achieve lasting impacts on user experience.`,
+    about: `I'm a motivated full-stack engineer with over 15 years working in the field of technology. I have previously worked as a database administrator, and have a proven ability to work in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.  I am eager to tackle development/design challenges to achieve lasting impacts on user experience.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
