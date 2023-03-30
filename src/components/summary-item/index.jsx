@@ -25,8 +25,8 @@ const SummaryItem = ({ name, description, link = false, internal = false, gitfro
         {link ? linkContent : name}
       </h3>
       <p className={classes.description}>{description}</p>
-      <p className={`${classes.description} ${gitfront ? 'hover:underline' : ''}`}>front-end github</p>
-      <p className={`${classes.description} ${gitback ? 'hover:underline' : ''}`}>back-end github</p>
+      <p className={`${classes.description} ${gitfront ? 'hover:underline' : ''}`}><a href={`${gitfront} ? ${gitfront} : '#'`}>front-end github</a></p>
+      <p className={`${classes.description} ${gitback ? 'hover:underline' : ''}`}><a href={`${gitback} ? ${gitback} : '#'`}>back-end github</a></p>
     </div>
   );
 };
