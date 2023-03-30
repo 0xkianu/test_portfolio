@@ -26,6 +26,7 @@ const SummaryItem = ({ name, description, link = false, internal = false, github
       </h3>
       <p className={classes.description}>{description}</p>
       {github && <p className={classes.description}><a href={github} target="_blank" className='hover:underline'>front-end github</a></p>}
+      {githubBack && <p className={classes.description}><a href={githubBack} target="_blank" className='hover:underline'>back-end github</a></p>}
     </div>
   );
 };
