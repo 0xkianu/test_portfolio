@@ -14,6 +14,8 @@ const SectionProjects = ({ projects }) => {
           name={project.name}
           description={project.description}
           link={project.link}
+          gitfront={project.gitfront}
+          gitback={project.gitback}
         />
       ))}
     </Section>

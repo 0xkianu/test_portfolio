@@ -21,8 +21,10 @@ module.exports = {
       {
         name: 'Barter House',
         description:
-          'A fun project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another. <a href="https://github.com/Jong-ko/TradeUpFront">front-end github</a>',
+          'A fun project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.',
         link: 'NA',
+        gitfront: 'https://github.com/Jong-ko/TradeUpFront',
+        gitback: 'https://github.com/Jong-ko/TradeUpBack',
       },
       {
         name: 'Babble-Log',

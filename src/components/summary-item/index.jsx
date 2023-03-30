@@ -7,7 +7,7 @@ const classes = {
   description: 'text-md text-gray-600 font-light',
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false }) => {
+const SummaryItem = ({ name, description, link = false, internal = false, gitfront = false, gitback = false }) => {
   let linkContent;
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
@@ -25,6 +25,8 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
         {link ? linkContent : name}
       </h3>
       <p className={classes.description}>{description}</p>
+      <p className={`${classes.description} ${gitfront ? 'hover:underline' : ''}`}>front-end github</p>
+      <p className={`${classes.description} ${gitback ? 'hover:underline' : ''}`}>back-end github</p>
     </div>
   );
 };
