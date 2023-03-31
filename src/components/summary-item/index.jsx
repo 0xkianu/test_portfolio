@@ -25,11 +25,10 @@ const SummaryItem = ({ name, description, link = false, internal = false, github
         {link ? linkContent : name}
       </h3>
       <p className={classes.description}>{description}</p>
-      <p className={classes.description}>
-      {github && <a href={github} target="_blank" className='hover:underline'>github(front)</a>}
-      &emsp;
-      {githubBack && <a href={githubBack} target="_blank" className='hover:underline'>github(back)</a>}
-      </p>
+      
+      {github && <a href={github} target="_blank" className='hover:underline classes.description'>github(front)</a>}
+      {githubBack && <span>&emsp;<a href={githubBack} target="_blank" className='hover:underline classes.description'>github(back)</a></span>}
+      
     </div>
   );
 };
