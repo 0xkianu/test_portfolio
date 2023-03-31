@@ -53,6 +53,11 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'RESUME(PDF)',
+        description:'',
+        link: 'src/images/tlee-resume.pdf'
+      },
+      {
         name: 'Digital Crafts Bootcamp',
         description: 'Student, October 2022 - Present',
         link: '',
