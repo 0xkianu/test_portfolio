@@ -55,7 +55,7 @@ module.exports = {
       {
         name: 'RESUME(PDF)',
         description:'',
-        link: 'src/images/tlee-resume.pdf'
+        link: 'https://thomasulee.netlify.app/assets/tlee-resume.pdf'
       },
       {
         name: 'Digital Crafts Bootcamp',
