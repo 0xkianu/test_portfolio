@@ -29,7 +29,7 @@ const SummaryItem = ({ name, description, link = false, internal = false, github
       {github && <a href={github} target="_blank" className='hover:underline'>github(front)</a>}
       &emsp;
       {githubBack && <a href={githubBack} target="_blank" className='hover:underline'>github(back)</a>}
-      </p><br />
+      </p>
     </div>
   );
 };
