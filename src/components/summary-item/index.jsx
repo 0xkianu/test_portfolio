@@ -12,7 +12,7 @@ const SummaryItem = ({ name, description, link = false, internal = false, github
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
   } else {
-    linkContent = <a href={link}>{name}</a>;
+    linkContent = <a href={link} target="_blank">{name}</a>;
   }
 
   return (
@@ -26,9 +26,9 @@ const SummaryItem = ({ name, description, link = false, internal = false, github
       </h3>
       <p className={classes.description}>{description}</p>
       <p className={classes.description}>
-      {github && <a href={github} target="_blank" className='hover:underline'>front-end code</a>}
+      {github && <a href={github} target="_blank" className='hover:underline'>github(front)</a>}
       &emsp;
-      {githubBack && <a href={githubBack} target="_blank" className='hover:underline'>back-end code</a>}
+      {githubBack && <a href={githubBack} target="_blank" className='hover:underline'>github(back)</a>}
       </p>
     </div>
   );
