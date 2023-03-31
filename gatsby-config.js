@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Thomas Lee | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Full-Stack Developer from Georgia.`,
+    description: `Full-Stack Developer from Lawrenceville, Georgia.`,
     // Optional: Twitter account handle
     author: ``,
     // Optional: Github account URL
@@ -21,7 +21,7 @@ module.exports = {
       {
         name: 'Barter House',
         description:
-          'A fun project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.',
+          'A project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.  Took on the role as the Scrum Master, main back-end developer and minor front-end developer for the project.  Tech Stack: React, Redux, Sequelize, PostgreSQL, TailWindCSS, Express, Axios, FireBase, JavaScript, AWS',
         link: 'NA',
         github: 'https://github.com/Jong-ko/TradeUpFront',
         githubBack: 'https://github.com/Jong-ko/TradeUpBack',
