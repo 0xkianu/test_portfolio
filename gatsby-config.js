@@ -21,7 +21,7 @@ module.exports = {
       {
         name: 'Barter House',
         description:
-          'A project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.  Took on the role as the Scrum Master, main back-end developer and minor front-end developer for the project.  Tech Stack: React, Redux, Sequelize, PostgreSQL, TailWindCSS, Express, Axios, FireBase, JavaScript, AWS',
+          'A project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.  This was a group project where took I on the role as the Scrum Master, main back-end developer and minor front-end developer.  Tech Stack: React, Redux, Sequelize, PostgreSQL, TailWindCSS, Express, Axios, FireBase, JavaScript, AWS',
         link: 'NA',
         github: 'https://github.com/Jong-ko/TradeUpFront',
         githubBack: 'https://github.com/Jong-ko/TradeUpBack',
@@ -29,7 +29,7 @@ module.exports = {
       {
         name: 'Babble-Log',
         description:
-          'Voice to text, note recording web application.  Record your voice to text, save the texts as notes and organize the notes in folders.',
+          'Voice to text, note recording web application.  Record your voice to text, save the texts as notes and organize the notes in folders.  ',
         link: '',
       },
       {
