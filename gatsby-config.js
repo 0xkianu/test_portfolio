@@ -21,7 +21,7 @@ module.exports = {
       {
         name: 'Barter House',
         description:
-          'A project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.  This was a group project where took I on the role as the Scrum Master, main back-end developer and minor front-end developer.  Tech Stack: React, Redux, Sequelize, PostgreSQL, TailWindCSS, Express, Axios, FireBase, JavaScript, AWS',
+          'A project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.  This is a group project where took I on the role as the Scrum Master, main back-end developer and minor front-end developer.  Tech Stack: React, Redux, Sequelize, PostgreSQL, TailWindCSS, Express, Axios, FireBase, JavaScript, AWS',
         link: 'NA',
         github: 'https://github.com/Jong-ko/TradeUpFront',
         githubBack: 'https://github.com/Jong-ko/TradeUpBack',
@@ -29,20 +29,25 @@ module.exports = {
       {
         name: 'Babble-Log',
         description:
-          'Voice to text, note recording web application.  Record your voice to text, save the texts as notes and organize the notes in folders.  ',
-        link: '',
+          'Voice to text, note recording web application.  The application allows the user to record their voice to text, save the texts as notes and organize the notes in folders.  Tech Stack: React, Redux, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, AWS',
+        link: 'https://www.thomasulee.com:3000',
+        github: 'https://github.com/0xkianu/babble-log',
+        githubBack: 'https://github.com/0xkianu/babble-log-server'
       },
       {
         name: 'React-O-Blog',
         description:
-          'A blogging web application.  Allows users to create and publish blog posts.',
-        link: '',
+          'A blogging web application.  Allows users to create and publish blog posts.  Tech Stack: React, Redux, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, AWS',
+        link: 'http://52.15.66.109:3000/',
+        github: 'https://github.com/0xkianu/react-o-blog-front',
+        githubBack: 'https://github.com/0xkianu/react-o-blog-back'
       },
       {
         name: 'Heads-Up',
         description:
-          'An event planning application for groups to plan and communicate.  Create events, invite other members and have group chats in event rooms.',
-        link: '',
+          'An event planning application for groups to plan and communicate.  Create events, invite other members and have group chats in event rooms.  Tech Stack: EJS, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, Render',
+        link: 'https://heads-up.onrender.com/calendar/home',
+        github: 'https://github.com/0xkianu/heads-up'
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
