@@ -22,7 +22,7 @@ module.exports = {
         name: 'Barter House',
         description:
           'A project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.  This is a group project where took I on the role as the Scrum Master, main back-end developer and minor front-end developer.  Tech Stack: React, Redux, Sequelize, PostgreSQL, TailWindCSS, Express, Axios, FireBase, JavaScript, AWS',
-        link: 'NA',
+        link: 'http://ec2-3-138-123-221.us-east-2.compute.amazonaws.com/',
         github: 'https://github.com/Jong-ko/TradeUpFront',
         githubBack: 'https://github.com/Jong-ko/TradeUpBack',
       },
