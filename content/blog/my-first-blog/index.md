@@ -21,4 +21,4 @@ After we have chosen our driving table, we need to look at the order of joins wi
 We will define cardinality feedback as the number of records returned after each join in the join order.  To optimize performance we want to minimize the cardinality feedback, so use this metric when analyzing the join order.  You can also try different join orders and measure the execution time.
 
 ###CONCLUSION
-FRPM is a good guideline to follow when formulating or tuning sql.  I may not have accounted for all scenarios, like how to handle views, usage of indexes, function calls, etc, but the general idea of the method should help to server as a guide.  And hopefully it will give you a different perspective into how to look at writing sql for performance.###
+FRPM is a good guideline to follow when formulating or tuning sql.  I may not have accounted for all scenarios, like how to handle views, usage of indexes, function calls, etc, but the general idea of the method should help to server as a guide.  And hopefully it will give you a different perspective into how to look at writing sql for performance.
