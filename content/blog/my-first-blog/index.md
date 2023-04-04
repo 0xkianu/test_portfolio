@@ -1,7 +1,7 @@
 ---
 title: Writing SQL for Performance
 date: '2023-04-03T19:00:00.00Z'
-description: 'Writing SQL queries to optimize performance'
+description: 'A guide to writing SQL queries for optimal performance'
 ---
 
 As a database administrator converting to a developer, I thought it would be helpful to share my experience on how to efficiently write SQL statements to optimize performance.  Database Administrators may not write the same type of SQL code as developers, but they have an understanding of how SQL is executed in the database.  This understanding can help explain how the way SQL is formatted can affect performance.  I will be using a method outlined from the book, <em>Oracle SQL Performance Tuning and Optimization by, Keavin Meade (2014)</em>.
