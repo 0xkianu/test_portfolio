@@ -9,6 +9,7 @@ const SectionProjects = ({ projects }) => {
   return (
     <Section title="Projects">
       {projects.map((project) => (
+        <div>
         <SummaryItem
           key={project.name}
           name={project.name}
@@ -17,6 +18,10 @@ const SectionProjects = ({ projects }) => {
           github={project.github}
           githubBack={project.githubBack}
         />
+        <a href="../../images/{project.screen1}"><img src="../../images/{project.screen1}" /></a>
+        <a href="../../images/{project.screen2}"><img src="../../images/{project.screen2}" /></a>
+        <a href="../../images/{project.screen3}"><img src="../../images/{project.screen3}" /></a>
+        </div>
       ))}
     </Section>
   );

@@ -27,6 +27,9 @@ module.exports = {
         link: 'http://ec2-3-138-123-221.us-east-2.compute.amazonaws.com/',
         github: 'https://github.com/Jong-ko/TradeUpFront',
         githubBack: 'https://github.com/Jong-ko/TradeUpBack',
+        screen1: 'BarterHouse1.png',
+        screen2: 'BarterHouse2.png',
+        screen3: 'BarterHouse3.png'
       },
       {
         name: 'Babble-Log',
@@ -34,7 +37,10 @@ module.exports = {
           'Voice to text, note recording web application.  The application allows the user to record their voice to text, save the texts as notes and organize the notes in folders.  Tech Stack: React, Redux, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, AWS',
         link: 'https://www.thomasulee.com:3000',
         github: 'https://github.com/0xkianu/babble-log',
-        githubBack: 'https://github.com/0xkianu/babble-log-server'
+        githubBack: 'https://github.com/0xkianu/babble-log-server',
+        screen1: 'Babble-log1.png',
+        screen2: 'Babble-log2.png',
+        screen3: 'Babble-log3.png'
       },
       {
         name: 'React-O-Blog',
@@ -42,14 +48,20 @@ module.exports = {
           'A blogging web application.  Allows users to create and publish blog posts.  Tech Stack: React, Redux, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, AWS',
         link: 'http://52.15.66.109:3000/',
         github: 'https://github.com/0xkianu/react-o-blog-front',
-        githubBack: 'https://github.com/0xkianu/react-o-blog-back'
+        githubBack: 'https://github.com/0xkianu/react-o-blog-back',
+        screen1: 'MY-BLOG1.png',
+        screen2: 'MY-BLOG2.png',
+        screen3: 'MY-BLOG3.png'
       },
       {
         name: 'Heads-Up',
         description:
           'An event planning application for groups to plan and communicate.  Create events, invite other members and have group chats in event rooms.  Tech Stack: EJS, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, Render',
         link: 'https://heads-up.onrender.com/calendar/home',
-        github: 'https://github.com/0xkianu/heads-up'
+        github: 'https://github.com/0xkianu/heads-up',
+        screen1: 'Heads-Up1.png',
+        screen2: 'Heads-Up2.png',
+        screen3: 'Heads-Up3.png'
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.

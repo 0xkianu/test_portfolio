@@ -53,6 +53,9 @@ export const pageQuery = graphql`
           link
           github
           githubBack
+          screen1
+          screen2
+          screen3
         }
         experience {
           name
