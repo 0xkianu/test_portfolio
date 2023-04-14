@@ -27,9 +27,9 @@ module.exports = {
         link: 'http://ec2-3-138-123-221.us-east-2.compute.amazonaws.com/',
         github: 'https://github.com/Jong-ko/TradeUpFront',
         githubBack: 'https://github.com/Jong-ko/TradeUpBack',
-        screen1: '../../images/BarterHouse1.png',
-        screen2: '../../images/BarterHouse2.png',
-        screen3: '../../images/BarterHouse3.png'
+        screen1: 'https://thomasulee.netlify.app/images/BarterHouse1.png',
+        screen2: 'https://thomasulee.netlify.app/images/BarterHouse2.png',
+        screen3: 'https://thomasulee.netlify.app/images/BarterHouse3.png'
       },
       {
         name: 'Babble-Log',
@@ -38,9 +38,9 @@ module.exports = {
         link: 'https://www.thomasulee.com:3000',
         github: 'https://github.com/0xkianu/babble-log',
         githubBack: 'https://github.com/0xkianu/babble-log-server',
-        screen1: '../../images/Babble-log1.png',
-        screen2: '../../images/Babble-log2.png',
-        screen3: '../../images/Babble-log3.png'
+        screen1: 'https://thomasulee.netlify.app/images/Babble-log1.png',
+        screen2: 'https://thomasulee.netlify.app/images/Babble-log2.png',
+        screen3: 'https://thomasulee.netlify.app/images/Babble-log3.png'
       },
       {
         name: 'React-O-Blog',
@@ -49,9 +49,9 @@ module.exports = {
         link: 'http://52.15.66.109:3000/',
         github: 'https://github.com/0xkianu/react-o-blog-front',
         githubBack: 'https://github.com/0xkianu/react-o-blog-back',
-        screen1: '../../images/MY-BLOG1.png',
-        screen2: '../../images/MY-BLOG2.png',
-        screen3: '../../images/MY-BLOG3.png'
+        screen1: 'https://thomasulee.netlify.app/images/MY-BLOG1.png',
+        screen2: 'https://thomasulee.netlify.app/images/MY-BLOG2.png',
+        screen3: 'https://thomasulee.netlify.app/images/MY-BLOG3.png'
       },
       {
         name: 'Heads-Up',
@@ -59,9 +59,9 @@ module.exports = {
           'An event planning application for groups to plan and communicate.  Create events, invite other members and have group chats in event rooms.  Tech Stack: EJS, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, Render',
         link: 'https://heads-up.onrender.com/calendar/home',
         github: 'https://github.com/0xkianu/heads-up',
-        screen1: '../../images/Heads-Up1.png',
-        screen2: '../../images/Heads-Up2.png',
-        screen3: '../../images/Heads-Up3.png'
+        screen1: 'https://thomasulee.netlify.app/images/Heads-Up1.png',
+        screen2: 'https://thomasulee.netlify.app/images/Heads-Up2.png',
+        screen3: 'https://thomasulee.netlify.app/images/Heads-Up3.png'
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
