@@ -4,7 +4,8 @@ import Section from '../section';
 import SummaryItem from '../summary-item';
 
 const classes = {
-  imageWrapper: 'w-150 max-w-150',
+  rowWrapper: 'flex flex-row',
+  imageWrapper: 'w-150 max-w-150 mr-2',
   image: 'transform transition-all duration-150 hover:scale-105',
 };
 
@@ -23,14 +24,16 @@ const SectionProjects = ({ projects }) => {
             github={project.github}
             githubBack={project.githubBack}
           />
-          <div className={classes.imageWrapper}>
-            <a href={project.screen1} target="_blank"><img className={classes.image} src={project.screen1} /></a>
-          </div>
-          <div className={classes.imageWrapper}>
-            <a href={project.screen2} target="_blank"><img className={classes.image} src={project.screen2} /></a>
-          </div>
-          <div className={classes.imageWrapper}>
-            <a href={project.screen3} target="_blank"><img className={classes.image} src={project.screen3} /></a>
+          <div className={classes.rowWrapper}>
+            <div className={classes.imageWrapper}>
+              <a href={project.screen1} target="_blank"><img className={classes.image} src={project.screen1} /></a>
+            </div>
+            <div className={classes.imageWrapper}>
+              <a href={project.screen2} target="_blank"><img className={classes.image} src={project.screen2} /></a>
+            </div>
+            <div className={classes.imageWrapper}>
+              <a href={project.screen3} target="_blank"><img className={classes.image} src={project.screen3} /></a>
+            </div>
           </div>
         </div>
       ))}
