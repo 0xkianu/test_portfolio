@@ -24,13 +24,13 @@ const SectionProjects = ({ projects }) => {
             githubBack={project.githubBack}
           />
           <div className={classes.imageWrapper}>
-            <a href={project.screen1}><img className={classes.image} src={project.screen1} /></a>
+            <a href={project.screen1} target="_blank"><img className={classes.image} src={project.screen1} /></a>
           </div>
           <div className={classes.imageWrapper}>
-            <a href={project.screen2}><img className={classes.image} src={project.screen2} /></a>
+            <a href={project.screen2} target="_blank"><img className={classes.image} src={project.screen2} /></a>
           </div>
           <div className={classes.imageWrapper}>
-            <a href={project.screen3}><img className={classes.image} src={project.screen3} /></a>
+            <a href={project.screen3} target="_blank"><img className={classes.image} src={project.screen3} /></a>
           </div>
         </div>
       ))}
