@@ -3,6 +3,11 @@ import React from 'react';
 import Section from '../section';
 import SummaryItem from '../summary-item';
 
+const classes = {
+  imageWrapper: 'w-full max-w-150',
+  image: 'transform transition-all duration-150 hover:scale-105',
+};
+
 const SectionProjects = ({ projects }) => {
   if (!projects.length) return null;
 
@@ -18,9 +23,9 @@ const SectionProjects = ({ projects }) => {
           github={project.github}
           githubBack={project.githubBack}
         />
-        <a href="https://sendpulse.com/blog/wp-content/uploads/2020/10/taking-screenshots-fb.png"><img src="https://sendpulse.com/blog/wp-content/uploads/2020/10/taking-screenshots-fb.png" /></a>
-        <a href={project.screen2}><img src={project.screen2} /></a>
-        <a href={project.screen3}><img src={project.screen3} /></a>
+        <a href={project.screen1}><img className={classes.image} src={project.screen1} /></a>
+        <a href={project.screen2}><img className={classes.image} src={project.screen2} /></a>
+        <a href={project.screen3}><img className={classes.image} src={project.screen3} /></a>
         </div>
       ))}
     </Section>
