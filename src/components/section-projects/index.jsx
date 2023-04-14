@@ -18,7 +18,7 @@ const SectionProjects = ({ projects }) => {
           github={project.github}
           githubBack={project.githubBack}
         />
-        <a href={project.screen1}><img src={project.screen1} /></a>
+        <a href="https://sendpulse.com/blog/wp-content/uploads/2020/10/taking-screenshots-fb.png"><img src="https://sendpulse.com/blog/wp-content/uploads/2020/10/taking-screenshots-fb.png" /></a>
         <a href={project.screen2}><img src={project.screen2} /></a>
         <a href={project.screen3}><img src={project.screen3} /></a>
         </div>
