@@ -18,9 +18,9 @@ const SectionProjects = ({ projects }) => {
           github={project.github}
           githubBack={project.githubBack}
         />
-        <a href="../../images/{project.screen1}"><img src="../../images/{project.screen1}" /></a>
-        <a href="../../images/{project.screen2}"><img src="../../images/{project.screen2}" /></a>
-        <a href="../../images/{project.screen3}"><img src="../../images/{project.screen3}" /></a>
+        <a href={project.screen1}><img src={project.screen1} /></a>
+        <a href={project.screen2}><img src={project.screen2} /></a>
+        <a href={project.screen3}><img src={project.screen3} /></a>
         </div>
       ))}
     </Section>
