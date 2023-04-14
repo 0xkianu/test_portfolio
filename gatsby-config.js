@@ -13,6 +13,8 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/0xkianu`,
     // Optional: LinkedIn account URL
+    email: `mailto: thomasulee@gmail.com`,
+    // Optional: email
     linkedin: `https://www.linkedin.com/in/thomas-lee-43483829/`,
     // Content of the About Me section
     about: `I'm a motivated full-stack engineer with over 15 years working in the field of technology. I have worked as a database administrator, and have a proven ability to work in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.  I am eager to tackle development/design challenges to achieve lasting impacts on user experience.`,
