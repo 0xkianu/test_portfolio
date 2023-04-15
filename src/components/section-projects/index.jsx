@@ -4,7 +4,7 @@ import Section from '../section';
 import SummaryItem from '../summary-item';
 
 const classes = {
-  rowWrapper: 'flex flex-row mb-4',
+  rowWrapper: 'flex flex-row mb-8',
   imageWrapper: 'w-150 max-w-150 mr-2',
   image: 'transform transition-all duration-150 hover:scale-105 border border-slate-300 hover:border-slate-400',
 };
