@@ -13,7 +13,20 @@ const SectionSkills = ({ skills }) => {
   return (
     <Section title="Skills" className={classes.wrapper}>
       <h3 className={classes.name}>Languages & Frameworks</h3>
-      <p className={classes.description}>JavaScript (ES6+), Node.js, Express.js, React, HTML5, CSS, SQL, PL/SQL, Sequelize</p>
+      <p className={classes.description}>
+        <ul>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+JavaScript (ES6+)</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>React</li>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>SQL</li>
+          <li>PL/SQL</li>
+          <li>Sequelize</li>
+        </ul>
+      </p>
     </Section>
   );
 };
