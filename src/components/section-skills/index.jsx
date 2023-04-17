@@ -7,7 +7,7 @@ const classes = {
   wrapper: 'mb-6',
   listWrapper: 'flex',
   name: 'font-semibold text-gray-900 pb-1',
-  description: 'text-sm text-gray-600 font-light',
+  description: 'text-sm text-gray-600 font-light mb-6',
   image: 'w-10 max-w-10 transform transition-all duration-150 hover:scale-105',
   listItem: 'mr-6 flex items-start'
 };
