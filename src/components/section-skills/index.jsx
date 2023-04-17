@@ -9,7 +9,7 @@ const classes = {
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-sm text-gray-600 font-light mb-6',
   image: 'w-10 max-w-10 transform transition-all duration-150 hover:scale-105',
-  listItem: 'mr-6 flex items-start'
+  listItem: 'mr-8 flex items-start'
 };
 
 const SectionSkills = ({ skills }) => {
