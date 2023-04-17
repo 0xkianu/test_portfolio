@@ -53,6 +53,7 @@ export const pageQuery = graphql`
           link
           github
           githubBack
+          demo
           screen1
           screen2
           screen3

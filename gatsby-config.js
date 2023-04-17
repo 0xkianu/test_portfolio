@@ -27,6 +27,7 @@ module.exports = {
         link: 'http://ec2-3-138-123-221.us-east-2.compute.amazonaws.com/',
         github: 'https://github.com/Jong-ko/TradeUpFront',
         githubBack: 'https://github.com/Jong-ko/TradeUpBack',
+        demo: 'https://www.youtube.com/watch?v=OX6PLDwJ_JM',
         screen1: 'https://thomasulee.netlify.app/images/BarterHouse1.png',
         screen2: 'https://thomasulee.netlify.app/images/BarterHouse2.png',
         screen3: 'https://thomasulee.netlify.app/images/BarterHouse3.png'
