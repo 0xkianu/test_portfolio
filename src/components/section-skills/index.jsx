@@ -8,7 +8,6 @@ const classes = {
   listWrapper: 'flex',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-sm text-gray-600 font-light mb-6',
-  description2: 'text-sm text-gray-600 font-light mb-6',
   image: 'w-10 max-w-10 transform transition-all duration-150 hover:scale-105',
   listItem: 'mr-6 flex items-start'
 };
@@ -36,7 +35,7 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
-      <p className={classes.description2}>
+      <p className='text-sm text-gray-600 font-light mb-6'>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-start text-sm'>
@@ -55,7 +54,7 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
-      <p className={classes.description}>
+      <p className='text-sm text-gray-600 font-light mb-6'>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-start text-sm'>
