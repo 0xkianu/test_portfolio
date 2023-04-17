@@ -36,7 +36,7 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
-      <p className={classes.description}>
+      <p className={classes.description2}>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-start text-sm'>
@@ -55,7 +55,7 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
-      <p className={classes.description2}>
+      <p className={classes.description}>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-start text-sm'>
