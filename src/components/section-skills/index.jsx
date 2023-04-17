@@ -35,7 +35,7 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
-      <p className='text-sm text-gray-600 font-light mb-6'>
+      <p className='text-sm text-gray-600 font-light my-6'>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-start text-sm'>
@@ -54,7 +54,7 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
-      <p className='text-sm text-gray-600 font-light mb-6'>
+      <p className='text-sm text-gray-600 font-light my-6'>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-start text-sm'>
