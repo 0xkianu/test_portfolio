@@ -15,7 +15,7 @@ const SectionSkills = ({ skills }) => {
     <Section title="Skills" className={classes.wrapper}>
       <h3 className={classes.name}>Languages & Frameworks</h3>
       <p className={classes.description}>
-        <ul>
+        <ul >
           <li><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 JavaScript (ES6+)</li>
           <li>Node.js</li>
