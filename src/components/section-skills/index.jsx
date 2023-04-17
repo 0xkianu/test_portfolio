@@ -99,6 +99,32 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
+      <br />
+      <h3 className={classes.name}>Other</h3>
+      <p className='text-sm text-gray-600 font-light my-6'>
+        <ul className={classes.listWrapper} >
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" />AWS
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />Heroku
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_477db83f729d63210139ec7cd29c1351/render-render.png" />Render
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn-icons-png.flaticon.com/512/6403/6403812.png" />Agile/Scrum
+            </div>
+          </li>
+        </ul>
+      </p>
     </Section>
   );
 };
