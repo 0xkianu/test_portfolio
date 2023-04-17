@@ -100,6 +100,7 @@ const SectionSkills = ({ skills }) => {
         </ul>
       </p>
       <br />
+      <br />
       <h3 className={classes.name}>Other</h3>
       <p className='text-sm text-gray-600 font-light my-6'>
         <ul className={classes.listWrapper} >
