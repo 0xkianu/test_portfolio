@@ -18,9 +18,9 @@ const SectionSkills = ({ skills }) => {
       <h3 className={classes.name}>Languages & Frameworks</h3>
       <p className={classes.description}>
         <ul className={classes.listWrapper} >
-          <li><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript (ES6+)</li>
-          <li><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />Node.js</li>
-          <li><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />Express.js</li>
+          <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript (ES6+)</li>
+          <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />Node.js</li>
+          <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />Express.js</li>
         </ul>
       </p>
       <p className={classes.description}>
