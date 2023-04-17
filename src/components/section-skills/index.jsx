@@ -68,7 +68,7 @@ const SectionSkills = ({ skills }) => {
           </li>
           <li className={classes.listItem}>
             <div className='flex flex-col items-start text-sm'>
-              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />Sequelize
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />Sequelize
             </div>
           </li>
         </ul>
