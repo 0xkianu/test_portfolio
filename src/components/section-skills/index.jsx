@@ -7,7 +7,7 @@ const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
-  image: 'w-full max-w-150 hover:scale-105'
+  image: 'w-25 max-w-25 hover:scale-105'
 };
 
 const SectionSkills = ({ skills }) => {
