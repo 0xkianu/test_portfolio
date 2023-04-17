@@ -19,17 +19,17 @@ const SectionSkills = ({ skills }) => {
       <p className={classes.description}>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start'>
+            <div className='flex flex-col items-center'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript
             </div>
           </li>
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start'>
+            <div className='flex flex-col items-center'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />Node.js
             </div>
           </li>
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start'>
+            <div className='flex flex-col items-center'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />Express.js
             </div>
           </li>
@@ -38,17 +38,17 @@ const SectionSkills = ({ skills }) => {
       <p className='text-sm text-gray-600 font-light my-6'>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start text-sm'>
+            <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />React
             </div>
           </li>
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start text-sm'>
+            <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />HTML5
             </div>
           </li>
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start text-sm'>
+            <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />CSS3
             </div>
           </li>
@@ -57,17 +57,17 @@ const SectionSkills = ({ skills }) => {
       <p className='text-sm text-gray-600 font-light my-6'>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start text-sm'>
+            <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://static.thenounproject.com/png/4484334-200.png" />SQL
             </div>
           </li>
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start text-sm'>
+            <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://www.oracle.com/a/ocom/img/pl-sql.svg" />PL/SQL
             </div>
           </li>
           <li className={classes.listItem}>
-            <div className='flex flex-col items-start text-sm'>
+            <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />Sequelize
             </div>
           </li>
