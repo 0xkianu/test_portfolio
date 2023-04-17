@@ -73,6 +73,31 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
+      <h3 className={classes.name}>Databases</h3>
+      <p className='text-sm text-gray-600 font-light my-6'>
+        <ul className={classes.listWrapper} >
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" />Oracle
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />Postgresql
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" />SQL Server
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/couchdb/couchdb-plain.svg" />Couchdb
+            </div>
+          </li>
+        </ul>
+      </p>
     </Section>
   );
 };
