@@ -5,7 +5,7 @@ import SummaryItem from '../summary-item';
 
 const classes = {
   wrapper: 'mb-6',
-  listWrapper: 'block',
+  listWrapper: 'flex',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-sm text-gray-600 font-light',
   image: 'w-10 max-w-10 transform transition-all duration-150 hover:scale-105',
