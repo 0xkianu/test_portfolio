@@ -7,7 +7,7 @@ const classes = {
   wrapper: 'mb-6',
   listWrapper: 'block mb-6 md:flex',
   name: 'font-semibold text-gray-900 pb-1',
-  description: 'text-md text-gray-600 font-light',
+  description: 'text-md text-gray-400 font-light',
   image: 'w-10 max-w-10 transform transition-all duration-150 hover:scale-105',
   listItem: 'mr-6'
 };
@@ -23,8 +23,16 @@ const SectionSkills = ({ skills }) => {
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript (ES6+)
             </div>
           </li>
-          <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></li>
-          <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" /></li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+            </div>
+          </li>
         </ul>
       </p>
       <p className={classes.description}>
