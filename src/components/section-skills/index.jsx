@@ -19,7 +19,7 @@ const SectionSkills = ({ skills }) => {
       <p className={classes.description}>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
-            <div className='flex-1 flex-col justify-center'>
+            <div className='flex flex-col items-center'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript (ES6+)
             </div>
           </li>
