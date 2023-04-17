@@ -33,6 +33,11 @@ const SectionSkills = ({ skills }) => {
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />Express.js
             </div>
           </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />Redux
+            </div>
+          </li>
         </ul>
       </p>
       <p className='text-sm text-gray-600 font-light my-6'>
@@ -52,6 +57,11 @@ const SectionSkills = ({ skills }) => {
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />CSS3
             </div>
           </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />Bootstrap
+            </div>
+          </li>
         </ul>
       </p>
       <p className='text-sm text-gray-600 font-light my-6'>
@@ -69,6 +79,11 @@ const SectionSkills = ({ skills }) => {
           <li className={classes.listItem}>
             <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />Sequelize
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />Bash
             </div>
           </li>
         </ul>
@@ -122,6 +137,15 @@ const SectionSkills = ({ skills }) => {
           <li className={classes.listItem}>
             <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://cdn-icons-png.flaticon.com/512/6403/6403812.png" />Agile/Scrum
+            </div>
+          </li>
+        </ul>
+      </p>
+      <p className='text-sm text-gray-600 font-light my-6'>
+        <ul className={classes.listWrapper} >
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />Git
             </div>
           </li>
         </ul>
