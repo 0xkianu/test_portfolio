@@ -37,9 +37,21 @@ const SectionSkills = ({ skills }) => {
       </p>
       <p className={classes.description}>
         <ul className={classes.listWrapper} >
-          <li>React</li>
-          <li>HTML5</li>
-          <li>CSS</li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-start'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />React
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-start'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />HTML5
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-start'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />CSS3
+            </div>
+          </li>
         </ul>
       </p>
     </Section>
