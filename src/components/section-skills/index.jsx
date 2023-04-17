@@ -73,6 +73,7 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
+      <br />
       <h3 className={classes.name}>Databases</h3>
       <p className='text-sm text-gray-600 font-light my-6'>
         <ul className={classes.listWrapper} >
