@@ -54,6 +54,25 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
+      <p className={classes.description}>
+        <ul className={classes.listWrapper} >
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-start text-sm'>
+              <img className={classes.image} src="https://static.thenounproject.com/png/4484334-200.png" />SQL
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-start text-sm'>
+              <img className={classes.image} src="https://www.oracle.com/a/ocom/img/pl-sql.svg" />PL/SQL
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-start text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />Sequelize
+            </div>
+          </li>
+        </ul>
+      </p>
     </Section>
   );
 };
