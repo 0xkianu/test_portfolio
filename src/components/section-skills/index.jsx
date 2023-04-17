@@ -9,7 +9,7 @@ const classes = {
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
   image: 'w-10 max-w-10 transform transition-all duration-150 hover:scale-105',
-  listItem: 'mr-4'
+  listItem: 'flex-auto flex-col items-center mr-6'
 };
 
 const SectionSkills = ({ skills }) => {
@@ -18,7 +18,7 @@ const SectionSkills = ({ skills }) => {
       <h3 className={classes.name}>Languages & Frameworks</h3>
       <p className={classes.description}>
         <ul className={classes.listWrapper} >
-          <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></li>
+          <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript (ES6+)</li>
           <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></li>
           <li className={classes.listItem}><img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" /></li>
         </ul>
