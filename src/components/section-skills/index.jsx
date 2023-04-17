@@ -5,7 +5,7 @@ import SummaryItem from '../summary-item';
 
 const classes = {
   wrapper: 'mb-6',
-  listWrapper: 'block mb-6 md:flex',
+  listWrapper: 'block',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-sm text-gray-600 font-light',
   image: 'w-10 max-w-10 transform transition-all duration-150 hover:scale-105',
@@ -20,7 +20,7 @@ const SectionSkills = ({ skills }) => {
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-start'>
-              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript (ES6+)
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />JavaScript
             </div>
           </li>
           <li className={classes.listItem}>
