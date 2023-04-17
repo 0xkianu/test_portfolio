@@ -8,8 +8,8 @@ const classes = {
   listWrapper: 'block mb-6 md:flex',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
-  image: 'w-10 max-w-10 hover:scale-105',
-  listItem: 'me-4'
+  image: 'w-10 max-w-10',
+  listItem: 'me-4 hover:scale-105'
 };
 
 const SectionSkills = ({ skills }) => {
