@@ -47,7 +47,7 @@ module.exports = {
         name: 'React-O-Blog',
         description:
           'A blogging web application.  Allows users to create and publish blog posts.  Tech Stack: React, Redux, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, AWS',
-        link: 'http://52.15.66.109:3000/',
+        link: 'http://3.14.132.217:3000/',
         github: 'https://github.com/0xkianu/react-o-blog-front',
         githubBack: 'https://github.com/0xkianu/react-o-blog-back',
         screen1: 'https://thomasulee.netlify.app/images/MY-BLOG1.png',
