@@ -20,6 +20,18 @@ module.exports = {
     about: `I'm a motivated full-stack engineer with over 15 years working in the field of technology. I have worked as a database administrator, and have a proven ability to work in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.  I am eager to tackle development/design challenges to achieve lasting impacts on user experience.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+       {
+         name: 'Project 1',
+         description:
+           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+         link: 'https://www.google.com',
+         github: 'https://github.com',
+         githubBack: 'https://github.com',
+         screen1: 'https://picsum.photos/200/300?random=1',
+         screen2: 'https://picsum.photos/200/300?random=2',
+         screen3: 'https://picsum.photos/200/300?random=3'
+       },
+      
       // {
       //   name: 'Barter House',
       //   description:
