@@ -27,6 +27,7 @@ module.exports = {
          link: 'https://www.google.com',
          github: 'https://github.com',
          githubBack: 'https://github.com',
+         demo: 'https://google.com',
          screen1: 'https://picsum.photos/200/300?random=1',
          screen2: 'https://picsum.photos/200/300?random=2',
          screen3: 'https://picsum.photos/200/300?random=3'
