@@ -121,7 +121,7 @@ const SectionSkills = ({ skills }) => {
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-center text-sm'>
-              <img className={classes.image} src="https://github.com/devicons/devicon/blob/v2.16.0/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />AWS
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />AWS
             </div>
           </li>
           <li className={classes.listItem}>
