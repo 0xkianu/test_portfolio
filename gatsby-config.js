@@ -17,20 +17,20 @@ module.exports = {
     // Optional: email
     linkedin: `https://www.linkedin.com/in/thomas-lee-43483829/`,
     // Content of the About Me section
-    about: `I'm a motivated full-stack engineer with over 15 years working in the field of technology. I have worked as a database administrator, and have a proven ability to work in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.  I am eager to tackle development/design challenges to achieve lasting impacts on user experience.`,
+    about: `Prospective software engineer with 15+ years of experience in technology as a Database Administrator and Junior Full-Stack Developer. I am a dedicated problem solver and collaborative worker, with experience supporting enterprise-level projects.  Seeking a Back-end or Full-stack developer role where I can apply my knowledge and skill working with modern frameworks and programming languages`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
        {
-         name: 'Project 1',
+         name: 'Discord Chat Bot (development) | Junior Data Scientist',
          description:
-           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-         link: 'https://www.google.com',
+           'A chat bot which scrapes data from a Discord server, uploads this data into a Chroma DB Vector database and creates a pipeline to apply Retrieval Augmented Generation (RAG) on a Mistrel 7B large language model, enabling the model to answer questions related to the Discord server.',
+         link: '',
          github: 'https://github.com',
-         githubBack: 'https://github.com',
-         demo: 'https://google.com',
-         screen1: 'https://picsum.photos/200/300?random=1',
-         screen2: 'https://picsum.photos/200/300?random=2',
-         screen3: 'https://picsum.photos/200/300?random=3'
+         githubBack: '',
+         demo: 'https://github.com/Dutra-Apex/llm-joc',
+         screen1: '',
+         screen2: '',
+         screen3: ''
        },
       
       // {
