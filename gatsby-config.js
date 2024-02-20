@@ -85,11 +85,6 @@ module.exports = {
         description: 'Senior Database Administrator, January 2015 - December 2023',
         link: '',
       },
-      {
-        name: 'Consilium Consulting',
-        description: 'Senior Database Administrator, October 2003 - December 2014',
-        link: '',
-      },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
