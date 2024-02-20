@@ -22,7 +22,7 @@ const SectionProjects = ({ projects }) => {
             description={project.description}
             link={project.link}
             github={project.github}
-            githubBack={project.githubBack}
+            technologies={project.technologies}
             demo={project.demo}
           />
           <div className={classes.rowWrapper}>
