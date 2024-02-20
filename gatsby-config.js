@@ -25,9 +25,9 @@ module.exports = {
          description:
            'A chat bot which scrapes data from a Discord server, uploads this data into a Chroma DB Vector database and creates a pipeline to apply Retrieval Augmented Generation (RAG) on a Mistrel 7B large language model, enabling the model to answer questions related to the Discord server.',
          link: '',
-         github: 'https://github.com',
+         github: 'https://github.com/Dutra-Apex/llm-joc',
          githubBack: '',
-         demo: 'https://github.com/Dutra-Apex/llm-joc',
+         demo: '',
          screen1: '',
          screen2: '',
          screen3: ''
