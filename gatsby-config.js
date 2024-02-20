@@ -47,7 +47,7 @@ module.exports = {
       {
         name: 'Off Road Fun Finder | Junior Developer',
         description:
-          'An ios / android mobile and web application that allows users to discover off-road tracks, shops, trainers and events.',
+          'Off Road Fun Finder is an ios / android mobile and web application that will elevate the sport as we know it.  Find every track, training, and event Nationwide!',
         link: 'https://offroadfunfinder.com',
         github: '',
         technologies: 'React, Django, SQLite, JWT authentication, Uploadcare (file management), Heroku',
