@@ -13,7 +13,7 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/0xkianu`,
     // Optional: LinkedIn account URL
-    email: `mailto: thomasulee@gmail.com`,
+    email: `mailto: tulee@tutanota.com`,
     // Optional: email
     linkedin: `https://www.linkedin.com/in/thomas-lee-43483829/`,
     // Content of the About Me section
@@ -32,51 +32,31 @@ module.exports = {
          screen2: '',
          screen3: ''
        },
+       {
+        name: 'Support Local (development) | Junior Developer',
+        description:
+          'An ecosystem where local business owners can promote their businesses or charities, and consumers can search for deals and support non-profit organizations.',
+        link: 'https://xd.adobe.com/view/42f14507-e4fc-4890-abe6-e4ae32f1e2fa-17a2/',
+        github: '',
+        githubBack: '',
+        demo: '',
+        screen1: '',
+        screen2: '',
+        screen3: ''
+      },
+      {
+        name: 'Off Road Fun Finder | Junior Developer',
+        description:
+          'An ios / android mobile and web application that allows users to discover off-road tracks, shops, trainers and events.',
+        link: 'https://offroadfunfinder.com',
+        github: '',
+        githubBack: '',
+        demo: '',
+        screen1: '',
+        screen2: '',
+        screen3: ''
+      },
       
-      // {
-      //   name: 'Barter House',
-      //   description:
-      //     'A project inspired by the Trade-Up Challenge, which takes on the idea of taking a small item and turning it into something much more valuable.  The site allows people to post and trade a single item for another.  This is a group project where took I on the role as the Scrum Master, main back-end developer and minor front-end developer.  Tech Stack: React, Redux, Sequelize, PostgreSQL, TailWindCSS, Express, Axios, FireBase, JavaScript, AWS',
-      //   link: 'http://ec2-3-138-123-221.us-east-2.compute.amazonaws.com/',
-      //   github: 'https://github.com/Jong-ko/TradeUpFront',
-      //   githubBack: 'https://github.com/Jong-ko/TradeUpBack',
-      //   demo: 'https://www.youtube.com/watch?v=OX6PLDwJ_JM',
-      //   screen1: 'https://thomasulee.netlify.app/images/BarterHouse1.png',
-      //   screen2: 'https://thomasulee.netlify.app/images/BarterHouse2.png',
-      //   screen3: 'https://thomasulee.netlify.app/images/BarterHouse3.png'
-      // },
-      // {
-      //   name: 'Babble-Log',
-      //   description:
-      //     'Voice to text, note recording web application.  The application allows the user to record their voice to text, save the texts as notes and organize the notes in folders.  Tech Stack: React, Redux, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, AWS',
-      //   link: 'https://www.thomasulee.com:3000',
-      //   github: 'https://github.com/0xkianu/babble-log',
-      //   githubBack: 'https://github.com/0xkianu/babble-log-server',
-      //   screen1: 'https://thomasulee.netlify.app/images/Babble-log1.png',
-      //   screen2: 'https://thomasulee.netlify.app/images/Babble-log2.png',
-      //   screen3: 'https://thomasulee.netlify.app/images/Babble-log3.png'
-      // },
-      // {
-      //   name: 'React-O-Blog',
-      //   description:
-      //     'A blogging web application.  Allows users to create and publish blog posts.  Tech Stack: React, Redux, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, AWS',
-      //   link: 'http://3.14.132.217:3000/',
-      //   github: 'https://github.com/0xkianu/react-o-blog-front',
-      //   githubBack: 'https://github.com/0xkianu/react-o-blog-back',
-      //   screen1: 'https://thomasulee.netlify.app/images/MY-BLOG1.png',
-      //   screen2: 'https://thomasulee.netlify.app/images/MY-BLOG2.png',
-      //   screen3: 'https://thomasulee.netlify.app/images/MY-BLOG3.png'
-      // },
-      // {
-      //   name: 'Heads-Up',
-      //   description:
-      //     'An event planning application for groups to plan and communicate.  Create events, invite other members and have group chats in event rooms.  Tech Stack: EJS, Sequelize, PostgreSQL, Bootstrap, Express, JavaScript, HTML, CSS, Render',
-      //   link: 'https://heads-up.onrender.com/calendar/home',
-      //   github: 'https://github.com/0xkianu/heads-up',
-      //   screen1: 'https://thomasulee.netlify.app/images/Heads-Up1.png',
-      //   screen2: 'https://thomasulee.netlify.app/images/Heads-Up2.png',
-      //   screen3: 'https://thomasulee.netlify.app/images/Heads-Up3.png'
-      // },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
@@ -86,13 +66,23 @@ module.exports = {
         link: 'https://thomasulee.netlify.app/assets/tlee-resume.pdf'
       },
       {
+        name: 'Riskconnect Inc',
+        description: 'Senior Database Administrator, January 2024 - Present',
+        link: '',
+      },
+      {
+        name: 'TechJoy Software',
+        description: 'Junior Developer, June 2023 - Present',
+        link: '',
+      },
+      {
         name: 'Digital Crafts Bootcamp',
         description: 'Student, October 2022 - Present',
         link: '',
       },
       {
         name: 'Ventiv Technology',
-        description: 'Senior Database Administrator, January 2015 - Present',
+        description: 'Senior Database Administrator, January 2015 - December 2023',
         link: '',
       },
       {

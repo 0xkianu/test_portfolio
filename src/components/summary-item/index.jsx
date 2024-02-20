@@ -26,7 +26,7 @@ const SummaryItem = ({ name, description, link = false, internal = false, github
       </h3>
       <p className={classes.description}>{description}</p>
       
-      {github && <a href={github} target="_blank" className='hover:underline classes.description'>github(front)</a>}
+      {github && <a href={github} target="_blank" className='hover:underline classes.description'>Github</a>}
       {githubBack && <span>&emsp;<a href={githubBack} target="_blank" className='hover:underline classes.description'>github(back)</a></span>}
       {demo && <span>&emsp;<a href={demo} target="_blank" className='hover:underline classes.description'>demo video</a></span>}
       
