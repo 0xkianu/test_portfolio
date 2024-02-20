@@ -77,7 +77,7 @@ module.exports = {
       },
       {
         name: 'Digital Crafts Bootcamp',
-        description: 'Student, October 2022 - Present',
+        description: 'Student, October 2022 - April 2023',
         link: '',
       },
       {
