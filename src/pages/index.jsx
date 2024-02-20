@@ -52,7 +52,7 @@ export const pageQuery = graphql`
           description
           link
           github
-          githubBack
+          technologies
           demo
           screen1
           screen2
