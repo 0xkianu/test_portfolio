@@ -168,10 +168,6 @@ const SectionSkills = ({ skills }) => {
               <img className={classes.image} src="https://cdn-icons-png.flaticon.com/512/6403/6403812.png" />Agile/Scrum
             </div>
           </li>
-        </ul>
-      </p>
-      <p className='text-sm text-gray-600 font-light my-6'>
-        <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />Git
@@ -179,6 +175,7 @@ const SectionSkills = ({ skills }) => {
           </li>
         </ul>
       </p>
+
     </Section>
   );
 };
