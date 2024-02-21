@@ -25,6 +25,11 @@ const SectionSkills = ({ skills }) => {
           </li>
           <li className={classes.listItem}>
             <div className='flex flex-col items-center'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />Typescript
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />Node.js
             </div>
           </li>
@@ -45,6 +50,11 @@ const SectionSkills = ({ skills }) => {
           <li className={classes.listItem}>
             <div className='flex flex-col items-center text-sm'>
               <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />React
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />Next.js
             </div>
           </li>
           <li className={classes.listItem}>
@@ -78,12 +88,31 @@ const SectionSkills = ({ skills }) => {
           </li>
           <li className={classes.listItem}>
             <div className='flex flex-col items-center text-sm'>
-              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />Sequelize
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />Bash
             </div>
           </li>
           <li className={classes.listItem}>
             <div className='flex flex-col items-center text-sm'>
-              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />Bash
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/perl/perl-original.svg" />Perl
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />Sequelize
+            </div>
+          </li>
+        </ul>
+      </p>
+      <p className='text-sm text-gray-600 font-light my-6'>
+        <ul className={classes.listWrapper} >
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" />Prisma
+            </div>
+          </li>
+          <li className={classes.listItem}>
+            <div className='flex flex-col items-center text-sm'>
+              <img className={classes.image} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" />Cypress
             </div>
           </li>
         </ul>
