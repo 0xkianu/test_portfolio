@@ -16,7 +16,7 @@ const SectionSkills = ({ skills }) => {
   return (
     <Section title="Skills" className={classes.wrapper}>
       <h3 className={classes.name}>Languages & Frameworks</h3>
-      <p className={classes.description}>
+      <p className='text-sm text-gray-600 font-light my-6'>
         <ul className={classes.listWrapper} >
           <li className={classes.listItem}>
             <div className='flex flex-col items-center text-sm'>
